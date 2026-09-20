@@ -415,6 +415,55 @@
 
 
 
+// import Card from "./components/Card";
+
+// function App() {
+//   const products = [
+//     {
+//       id: 1,
+//       title: "iPhone 17",
+//       image:
+//         "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+//       price: 89999,
+//     },
+//     {
+//       id: 2,
+//       title: "MacBook Air",
+//       image:
+//         "https://images.unsplash.com/photo-1517336714739-489689fd1ca8",
+//       price: 109999,
+//     },
+//     {
+//       id: 3,
+//       title: "AirPods Pro",
+//       image:
+//         "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46",
+//       price: 24999,
+//     },
+//   ];
+
+//   return (
+//     <div className="min-h-screen bg-gray-100 p-10">
+//       <h1 className="text-4xl font-bold text-center mb-10">
+//         Products
+//       </h1>
+
+//       <div className="flex flex-wrap justify-center gap-8">
+//         {products.map((product) => (
+//           <Card
+//             key={product.id}
+//             title={product.title}
+//             image={product.image}
+//             price={product.price}
+//           />
+//         ))}
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default App;
+
 import Card from "./components/Card";
 
 function App() {
