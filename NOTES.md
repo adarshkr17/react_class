@@ -250,3 +250,5 @@ Ans: map() is used to render multiple components dynamically from an array.
 
 
 
+jsx
+components 3 feauture
